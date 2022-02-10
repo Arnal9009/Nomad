@@ -1,0 +1,37 @@
+footer {
+  background: #D8E1E9;
+  .footer-content {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 58px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer-ul {
+      display: flex;
+      ul {
+        &:first-child {
+          margin-right: 180px;
+        }
+        li {
+          line-height: 45px;
+          &:first-child {
+            text-transform: uppercase;
+            letter-spacing: 0.3em;
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+    div {
+      display: flex;
+      align-items: center;
+      span {
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        margin-right: 20px;
+      }
+    }
+  }
+}
